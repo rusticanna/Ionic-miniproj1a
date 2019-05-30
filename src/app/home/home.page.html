@@ -6,9 +6,34 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-content padding>
+  <!-- <ion-grid> -->
+  <ion-row>
+    <!-- list of ??? -->
+    <ion-col size="6">
+      <ion-item-divider color="primary">Fruit</ion-item-divider>
+      <ion-list>
+        <ion-item>Tomatoe</ion-item>
+        <ion-item>Durian</ion-item>
+        <ion-item>Dragon Fruit</ion-item>
+        <ion-item>Star Fruit</ion-item>
+        <ion-item>Mangosteen</ion-item>
+        <ion-item>Sour Cherries</ion-item>
+      </ion-list>
+    </ion-col>
+    <!-- list of ???-->
+    <ion-col size="6">
+      <ion-item-divider color="secondary">Fruit</ion-item-divider>
+      <ion-list>
+        <ion-item>Peas</ion-item>
+        <ion-item>Carrots</ion-item>
+        <ion-item>Lima Beans</ion-item>
+        <ion-item>Asparagas</ion-item>
+        <ion-item>Rutabaga</ion-item>
+        <ion-item>Sweet Potatoe</ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+  <!-- </ion-grid> -->
+  <ion-button (click)="goToEmpty()">Done</ion-button>
 </ion-content>
